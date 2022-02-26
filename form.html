@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="book.css">
+</head>
+<body>
+    <div class="container mx-auto">
+        <div class="navbar flex justify-between items-center py-0">
+            <div class = "flex justify-center items-center md:order-2">
+            <div class ="hamburger inline-block p-0 cursor-pointer md:hidden">
+           <div class="line my-1 h-0.5 w-6 bg-black"></div>
+           <div class="line my-1 h-0.5 w-6  bg-black"></div>
+           <div class="line my-1 h-0.5 w-6 bg-black"></div>
+           </div>
+           <div class="search -py-2 h-15 w-24"><a href="index.html"><button><img src="1.png"></button></a></div>
+            </div> 
+            <div class="logo text-center flex mx-5 md:order-1">Book-anza
+                <div class="features absolute w-fit md:static md:w-auto bg-gray-200 md:bg-white inset-0 md:flex md:itams-center md:mx-4 md:space-x-6 -translate-x-96 md:translate-x-0">
+                    <div class="fitem"> contact us</div>
+                </div>
+            </div>
+            <div class="search text-center md:order-3 flex space-x-2">
+            <div class="cart hidden md:block">account</div>
+        
+            </div>
+        </div>
+  <div class="page">
+    <div class="wrapper">
+      <div class="card">
+  <div class="container">
+    
+        <h1 class="main_heading">Register to Donate</h1>
+        <form action="">
+         
+        <p>Required fields are followed by *</p>
+        
+        <div class="name">
+        <p>Name: *<input type="text" id="name" placeholder="Enter your name" required></p>
+         </div>
+         <div class="contact">
+        <p>Contact No.: * <input type="number" placeholder="Contact No." required></p>
+      </div>
+<p>
+  Address: 
+  <div class="autocomplete-container" id="autocomplete-container"></div> 
+  <div class="autocomplete-container" id="autocomplete-container-city"></div>
+  <div class="autocomplete-container" id="autocomplete-container-country"></div>
+</p>
+<p>Pincode:* <input type="number" required></p>
+<p>
+    <label for="Exam"> Choose the category </label>
+   <div class="enter">
+        <select class="category" id="category">
+            <option value="select ">select</option>
+            <option value="JEE">JEE</option>
+            <option value="NEET">NEET</option>
+            <option value="UPSC">UPSC</option>
+            <option value="CAT">CAT</option>
+        </select>
+        
+
+    </p>
+<p>Enter the details of the book <input type="text" required></p>
+<p>Upload the image <input type="file" onchange="readURL(this)" accept="Image/*" required></p>
+<input type="Submit" value="Submit">
+    </form>
+    </div>
+    
+  </div>
+  </div>
+  </div>
+<script src="book.js"></script>
+</body>
+</html>
