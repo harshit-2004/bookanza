@@ -1,126 +1,61 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-   <head>
-      <meta charset="utf-8">
-      <title>Login and Registration Form </title>
-      <link rel="stylesheet" href="login.css">
-      <script src="https://cdn.tailwindcss.com"></script>
-      <link rel='stylesheet' type='text/css' href='23.css'>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   </head>
-   <body>
-      <div id="progressbar"></div>
-      <div id="scrollPath"></div>
-      <section style="
-      width: 100%;
-      min-height: 22vh;
-      padding: 0px;">
-      <div class="container mx-auto bg-white">
-          <div class="navbar flex justify-between items-center py-0">
-            <div class="flex justify-center items-center md:order-2">
-              <div class="hamburger inline-block p-0 cursor-pointer md:hidden">
-                <div class="line my-1 h-0.5 w-6 bg-black"></div>
-                <div class="line my-1 h-0.5 w-6  bg-black"></div>
-                <div class="line my-1 h-0.5 w-6 bg-black"></div>
-              </div>
-      <div class="search -py-2 h-15 w-24 " ><a href="index.html"><button><img src="1.png"></button></a></div>
-  </div>
-  <div class="logo text-center flex mx-5 md:order-1"><strong><em>Book-anza</em></strong>
-    <div
-      class="features absolute w-fit md:static md:w-auto  inset-0 md:flex md:itams-center md:mx-4 md:space-x-6 -translate-x-96 md:translate-x-0">
-      <div class="fitem"><a href="Contact.html"><button>Contact Us</button></a></div>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' type='text/css' href='23.css'>
+    <title>Bookanza</title>
+</head>
+
+<body >
+    <div id="progressbar"></div>
+  <div id="scrollPath"></div>
+    <div class="navbar flex justify-between items-center py-0">
+    <div class = "flex justify-center items-center md:order-2">
+    <div class ="hamburger inline-block p-0 cursor-pointer md:hidden">
+   <div class="line my-1 h-0.5 w-6 bg-black"></div>
+   <div class="line my-1 h-0.5 w-6  bg-black"></div>
+   <div class="line my-1 h-0.5 w-6 bg-black"></div>
+   </div>
+   <div class="search -py-2 h-15 w-24"><a href="index.html"><button><img src="1.png"></button></a></div>
+    </div> 
+    <div class="logo text-center flex mx-5 md:order-1">Book-anza
+        <div class="features absolute w-fit md:static md:w-auto bg-gray-200 md:bg-white inset-0 md:flex md:itams-center md:mx-4 md:space-x-6 -translate-x-96 md:translate-x-0">
+            <div class="fitem"> contact us</div>
+        </div>
     </div>
-  </div>
-  <div class="search text-center md:order-3 flex space-x-2">
-      <button><a href="login.html">
-          <div class="cart hidden md:block">account</div>
-      </a></button>
-      <div class="yes px-5">
-          
-          <button><a href="form.html"> donate</a></button>
-      </div>
-  </div>
-  </div>
-  </section>
-  <div class="formc">
-      <div class="wrapper">
-         <div class="title-text">
-            <div class="title login">
-               Login Form
-            </div>
-            <div class="title signup">
-               Signup Form
-            </div>
-         </div>
-         <div class="form-container">
-            <div class="slide-controls">
-               <input type="radio" name="slide" id="login" checked>
-               <input type="radio" name="slide" id="signup">
-               <label for="login" class="slide login">Login</label>
-               <label for="signup" class="slide signup">Signup</label>
-               <div class="slider-tab"></div>
-            </div>
-            <div class="form-inner">
-               <form action="#" class="login">
-                  <div class="field">
-                     <input type="text" placeholder="Email Address" required>
-                  </div>
-                  <div class="field">
-                     <input type="password" placeholder="Password" required>
-                  </div>
-                  <div class="pass-link">
-                     <a href="#">Forgot password?</a>
-                  </div>
-                  <div class="field btn">
-                     <div class="btn-layer"></div>
-                     <input type="submit" value="Login" onClick="myFunction">
-                  </div>
-                  <div class="signup-link">
-                     Not a member? <a href="">Signup now</a>
-                  </div>
-               </form>
-               <form action="#" class="signup">
-                  <div class="field">
-                     <input type="text" placeholder="Email Address" required>
-                  </div>
-                  <div class="field">
-                     <input type="password" placeholder="Password" required>
-                  </div>
-                  <div class="field">
-                     <input type="password" placeholder="Confirm password" required>
-                  </div>
-                  <div class="field btn">
-                     <div class="btn-layer"></div>
-                     <input type="submit" value="Signup">
-                  </div>
-               </form>
-            </div>
-         </div>
-      </div>
-      
-      </div>
-      <script>
-         
-          function myFunction() {
-        window.location.href="tands.html";
-      }
-         const loginText = document.querySelector(".title-text .login");
-         const loginForm = document.querySelector("form.login");
-         const loginBtn = document.querySelector("label.login");
-         const signupBtn = document.querySelector("label.signup");
-         const signupLink = document.querySelector("form .signup-link a");
-         signupBtn.onclick = (()=>{
-           loginForm.style.marginLeft = "-50%";
-           loginText.style.marginLeft = "-50%";
-         });
-         loginBtn.onclick = (()=>{
-           loginForm.style.marginLeft = "0%";
-           loginText.style.marginLeft = "0%";
-         });
-         signupLink.onclick = (()=>{
-           signupBtn.click();
-           return false;
-         });
-      </script>
-   </body>
+    <div class="search text-center md:order-3 flex space-x-2">
+    <div class="cart hidden md:block">account</div>
+    <div class="yes px-5">
+
+        donate
+    </div>
+    </div>
+</div>
+    <div class="container mt-48 flex">
+        <div class="left w-1/3 mx-14 ">
+            <img src="download.jpeg" alt="" class="w-80 mx-8 ">
+            <p class="text-3xl mx-8 py-5 ">Lets Explore the world and make a network of books</p>
+        </div>
+        <div class="right flex flex-col bg-white p-8 rounded-x1 w-1/3 text-xl">
+            <input class="px-4 h-12 my-2 outline-blue-600 border border-1 rounded-md" type="text"
+                placeholder="Email address or phone number">
+            <input class="px-4 h-12 my-2 outline-blue-600 border border-1 rounded-md" type="Password"
+                placeholder="Password">
+            <a href="tands.html"><button class="bg-blue-600 text-white px-5 m-2 py-3 rounded-md hover:bg-blue-700 font-bold ">Log In</button></a>
+            <span class="text-blue-600 cursor-pointer hover:underline text-sm m-2">Forgotten Password?</span>
+            <hr class="my-2">
+            <button class="bg-green-600 hover:bg-green-700 text-white m-2 py-3 px-3 rounded-md w-fit mx-auto">Create new
+                Account</button>
+            <span class="absolute-bottom--12 text-sm"><span class="font-bold hover:underline cursor-pointer">Create a
+                    Page</span>
+                for Donating your books</span>
+        </div>
+    </div>
+</body>
+
 </html>
