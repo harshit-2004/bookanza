@@ -1,5 +1,9 @@
 <h1>Bookanza</h1>
 
+
+<h2>Idea</h2>
+
+
 - 320 million books are discarded each year and not being recycled. 
 
 <img width="300" alt="image" src ="https://user-images.githubusercontent.com/96365691/155869418-4f7bfb4a-fa79-487f-b603-086ea9f5b7c6.png">
@@ -52,10 +56,8 @@ get the books.
 
   
   <hr>
-  <h2>Team Details<h2>
+  <h2>Team Details</h2>
     
-    - Team Code : Byte Crunchers
-    
-    - Team Code : 
-    
-    - Freashers
+ - Team Name : Byte Crunchers
+ - Team Code : 2f779b6943
+ - Freasher 
