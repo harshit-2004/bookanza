@@ -5,16 +5,20 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-html,body{
-  display: grid;
+body{
+  background: url('bgphoto.jpeg'  ) no-repeat  ;
   height: 100%;
   width: 100%;
-  place-items: center;
-  background: url('download.jpeg'  ) no-repeat  ;
-  position: absolute;
+  place-items: centre ;
   background-size: 100% 100%;
+  display: grid;
   background-attachment: fixed; 
-
+}
+.formc{
+  /* position: fixed; */
+  /* align-items: center; */
+  margin: auto;
+  width: 50%;
   /* background: -webkit-linear-gradient(left, #a445b2, #fa4299); */
 }
 ::selection{
@@ -24,10 +28,14 @@ html,body{
 .wrapper{
   overflow: hidden;
   max-width: 390px;
+  max-width: 390px;
   background: #fff;
   padding: 30px;
+  margin: auto;
+  margin-top: 20px;
   border-radius: 5px;
-  box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+  box-shadow: 0px 15px 20px rgb(0 0 0 / 10%);
+
 }
 .wrapper .title-text{
   display: flex;
@@ -186,3 +194,8 @@ form .btn input[type="submit"]{
   cursor: pointer;
 }
 
+section{
+  width: 100%;
+  min-height: 22vh;
+  padding: 0px;
+}
