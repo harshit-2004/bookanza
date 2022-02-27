@@ -40,7 +40,7 @@
                   </div>
                   <div class="field btn">
                      <div class="btn-layer"></div>
-                     <input type="submit" value="Login">
+                     <input type="submit" value="Login" onClick="myFunction">
                   </div>
                   <div class="signup-link">
                      Not a member? <a href="">Signup now</a>
@@ -65,6 +65,10 @@
          </div>
       </div>
       <script>
+         
+          function myFunction() {
+        window.location.href="jee.html";
+      }
          const loginText = document.querySelector(".title-text .login");
          const loginForm = document.querySelector("form.login");
          const loginBtn = document.querySelector("label.login");
