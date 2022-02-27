@@ -4,7 +4,7 @@
 
 <img width="300" alt="image" src ="https://user-images.githubusercontent.com/96365691/155869418-4f7bfb4a-fa79-487f-b603-086ea9f5b7c6.png">
 
--Books are so expensive so everybody can’t afford them.
+- Books are so expensive so everybody can’t afford them.
 
 <img width="320" alt="image" src ="https://user-images.githubusercontent.com/96365691/155869534-d389f696-c917-4e6d-be01-fe4da4a1379f.png">
 
@@ -36,4 +36,26 @@ get the books.
 
   
 <hr>  
-<h2>Technology Used</h2>                         
+<h2>Tech Stack Used</h2>
+  
+  - HTML
+  
+  - CSS
+  
+  - JavaScript
+  
+  - Google Forms
+  
+  - GitHub
+  
+  - TailwindCSS
+
+  
+  <hr>
+  <h2>Team Details<h2>
+    
+    - Team Code : Byte Crunchers
+    
+    - Team Code : 
+    
+    - Freashers
