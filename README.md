@@ -1,4 +1,4 @@
-Bookanza
+<h1>Bookanza</h1>
 
 - 320 million books are discarded each year and not being recycled. 
 
@@ -15,10 +15,23 @@ get the books.
 
 <img width="300" alt="image" src="https://user-images.githubusercontent.com/96365691/155869471-9c70865c-08d3-4764-94ef-a97e58b06d4c.png">
 
--The aspirants who are really in the need of competitive books. Now they can easily get these books by directly having a conversation with the book owner. 
+- The aspirants who are really in the need of competitive books. Now they can easily get these books by directly having a conversation with the book owner. 
 
 <img width="300" alt="image" src="https://user-images.githubusercontent.com/96365691/155869835-de330a25-2e39-4150-9f0b-b755056e4cfd.png">
 
--Now they can have access to all the competitive books that are required for their preparation at our Platform in their location area. 
+- Now they can have access to all the competitive books that are required for their preparation at our Platform in their location area. 
 
-![image](https://user-images.githubusercontent.com/96365691/155869908-11384739-17fc-4edd-becc-8b85f4767006.png)
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/96365691/155883010-180ddffb-0a09-4d86-b99e-873fea0a5269.png">
+
+- We want to add students who are in the initial phase to start their competitive journey, can have some mentorship with some experienced aspirants who qualified for the exams and where the mentors will provide the path on how to get started and how to tackle different situations during their journey.
+
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/96365691/155883145-f5d89327-c36b-48d2-afeb-8cf9f4edb004.png">
+
+<h1>Hope we Will Make Books Accessible to everybody<h1>
+  
+  <img width="300" alt="image" src="https://user-images.githubusercontent.com/96365691/155883236-5176291e-c7d6-4222-a3d8-b416373dccab.png">
+                                    
+
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/96365691/155883416-a9838583-d647-4e8c-99e4-abc4c6cc514e.png">
+
+                         
