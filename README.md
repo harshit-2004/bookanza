@@ -34,4 +34,6 @@ get the books.
 
 <img width="300" alt="image" src="https://user-images.githubusercontent.com/96365691/155883416-a9838583-d647-4e8c-99e4-abc4c6cc514e.png">
 
-                         
+  
+<hr>  
+<h2>Technology Used</h2>                         
